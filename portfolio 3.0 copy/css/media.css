@@ -1,0 +1,31 @@
+@media(max-width:770px){
+    .nav{
+        height:150px;
+       width: 102%; 
+       position: fixed;
+       top:0;
+   }
+   .hero-section{
+    height: 600px;
+    background-image: url("https://img.freepik.com/premium-photo/high-angle-view-laptop-table_1048944-226544.jpg");
+    background-size: cover;
+  }
+   
+}
+@media(max-width:400px){
+    .nav{
+        height:150px;
+       width: 105%; 
+       position: fixed;
+       top:0;
+   }
+   
+}
+@media (max-width: 988px) and (min-width: 770px) {
+    .nav {
+        height: 150px;
+        width: 107%; 
+        position: fixed;
+        top: 0;
+    }
+}

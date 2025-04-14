@@ -1,0 +1,56 @@
+.hero-section{
+  height: 500px;
+  background-image: url("https://img.freepik.com/premium-photo/high-angle-view-laptop-table_1048944-226544.jpg");
+  background-size: cover;
+}
+.nav{
+     height:100px;
+    width: 100%; 
+    position: fixed;
+    top:0;
+    z-index: 1050; 
+}
+
+
+.resumebutt{
+height: 60px;
+width:200px;
+border: none;
+}
+.profilepic{
+    height: 50%;
+    width: 50%;
+  
+}
+.profile{
+    border-radius: 10%;
+    border: 1px solid white;
+    box-shadow: 12px 12px 2px 1px rgba(49, 49, 49, 0.2);
+}
+.proj{
+    display: flex;
+   justify-content: space-around;
+}
+.proje{
+    border: 1px solid white;
+    box-shadow: 0 0 10px 5px rgba(15, 15, 15, 0.3);
+
+}
+.contactform{
+    height: 600px;
+
+}
+.Submitbutt{
+border: none;
+height: 30px;
+width: 100px;
+}
+.mess{
+    height: 200px;
+}
+.foot{
+   height: 100px; 
+}
+#projects ,#Contactme,#about{
+    scroll-margin-top: 100px; 
+  }
